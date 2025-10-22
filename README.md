@@ -16,9 +16,9 @@ Complete guide to configure your system after installing **illogical_impulse** o
 8. [Final Optimizations](#8-final-optimizations)
 9. [App Center (GNOME Software)](#9-app-center-gnome-software)
 10. [Final Checklist](#10-final-checklist)
-11. [Common Troubleshooting](#🔧-common-troubleshooting)
-12. [Useful Resources](#📚-useful-resources)
-13. [Quick Reference Commands](#🎯-quick-reference-commands)
+11. [Common Troubleshooting](#common-troubleshooting)
+12. [Useful Resources](#useful-resources)
+13. [Quick Reference Commands](#quick-reference-commands)
 
 ---
 
