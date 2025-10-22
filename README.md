@@ -1,6 +1,6 @@
 # 🚀 Post-Installation illogical_impulse - Complete Setup Guide
 
-Complete guide to configure your system after installing **illogical_impulse** on Arch Linux / EndeavourOS.
+Complete guide to configure your system after installing **[illogical_impulse](https://github.com/end-4/dots-hyprland)** on Arch Linux / EndeavourOS.
 
 ---
 
