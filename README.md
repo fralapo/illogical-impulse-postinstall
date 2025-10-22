@@ -1,4 +1,3 @@
-
 # 🚀 Post-Installation illogical_impulse - Complete Setup Guide
 
 Complete guide to configure your system after installing **illogical_impulse** on Arch Linux / EndeavourOS.
@@ -6,6 +5,7 @@ Complete guide to configure your system after installing **illogical_impulse** o
 ---
 
 ## 📋 Table of Contents
+
 1. [System Update](#1-system-update)
 2. [Essential GUI Applications](#2-essential-gui-applications)
 3. [Audio Configuration](#3-audio-configuration)
@@ -30,7 +30,7 @@ yay -Syu
 
 # Clean old package cache
 yay -Sc
-````
+```
 
 ---
 
