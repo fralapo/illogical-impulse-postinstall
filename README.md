@@ -6,25 +6,25 @@ Complete guide to configure your system after installing **[illogical_impulse](h
 
 ## 📋 Table of Contents
 
-1. [System Update](#1-system-update)
-2. [Essential GUI Applications](#2-essential-gui-applications)
-3. [Audio Configuration](#3-audio-configuration)
-4. [Themes and Icons](#4-themes-and-icons)
-5. [Bluetooth and Devices](#5-bluetooth-and-devices)
-6. [Input Remapper - Mouse Button Configuration](#6-input-remapper---mouse-button-configuration)
-7. [EasyEffects and Audio Presets](#7-easyeffects-and-audio-presets)
-8. [Screenshots with Hyprshot](#8-screenshots-with-hyprshot)
-9. [Custom Keybindings](#9-custom-keybindings)
-10. [Final Optimizations](#10-final-optimizations)
-11. [App Center (GNOME Software)](#11-app-center-gnome-software)
-12. [Final Checklist](#12-final-checklist)
-13. [Common Troubleshooting](#common-troubleshooting)
-14. [Useful Resources](#useful-resources)
-15. [Quick Reference Commands](#quick-reference-commands)
+1. [System Update](#system-update)
+2. [Essential GUI Applications](#essential-gui-applications)
+3. [Audio Configuration](#audio-configuration)
+4. [Themes and Icons](#themes-and-icons)
+5. [Bluetooth and Devices](#bluetooth-and-devices)
+6. [Input Remapper - Mouse Button Configuration](#input-remapper---mouse-button-configuration)
+7. [EasyEffects and Audio Presets](#easyeffects-and-audio-presets)
+8. [Screenshots with Hyprshot](#screenshots-with-hyprshot)
+9. [Custom Keybindings](#custom-keybindings)
+10. [Final Optimizations](#final-optimizations)
+11. [App Center (GNOME Software)](#app-center-gnome-software)
+12. [Final Checklist](#final-checklist)
+13. [Common Troubleshooting](#common-troubleshooting-1)
+14. [Useful Resources](#useful-resources-1)
+15. [Quick Reference Commands](#quick-reference-commands-1)
 
 ***
 
-## 1. 🔄 System Update
+## 1. 🔄 System Update <a id="system-update"></a>
 
 ```bash
 # Update all packages
@@ -36,7 +36,7 @@ yay -Sc
 
 ***
 
-## 2. 📦 Essential GUI Applications
+## 2. 📦 Essential GUI Applications <a id="essential-gui-applications"></a>
 
 ### Install base system management packages
 
@@ -88,7 +88,7 @@ yay -S --needed \
 
 ***
 
-## 3. 🔊 Audio Configuration
+## 3. 🔊 Audio Configuration <a id="audio-configuration"></a>
 
 ### Verify PipeWire
 
@@ -133,7 +133,7 @@ speaker-test -c 2 -t wav
 
 ***
 
-## 4. 🎨 Themes and Icons
+## 4. 🎨 Themes and Icons <a id="themes-and-icons"></a>
 
 ### Activate Papirus Icons
 
@@ -171,7 +171,7 @@ If icons are missing in the interface, restart Hyprland: `Super + Shift + Q` →
 
 ***
 
-## 5. 📡 Bluetooth and Devices
+## 5. 📡 Bluetooth and Devices <a id="bluetooth-and-devices"></a>
 
 ### Install bluez and blueman
 
@@ -221,7 +221,7 @@ In pavucontrol → **Configuration**, select **A2DP (LDAC)** profile for compati
 
 ***
 
-## 6. 🖱️ Input Remapper - Mouse Button Configuration
+## 6. 🖱️ Input Remapper - Mouse Button Configuration <a id="input-remapper---mouse-button-configuration"></a>
 
 ### Overview
 
@@ -350,7 +350,7 @@ input-remapper-control --command start --device "Your Mouse Name" --preset "Hypr
 
 ***
 
-## 7. 🎧 EasyEffects and Audio Presets
+## 7. 🎧 EasyEffects and Audio Presets <a id="easyeffects-and-audio-presets"></a>
 
 ### Install EasyEffects and presets
 
@@ -400,7 +400,7 @@ ls ~/.config/easyeffects/output/
 
 ***
 
-## 8. 📸 Screenshots with Hyprshot
+## 8. 📸 Screenshots with Hyprshot <a id="screenshots-with-hyprshot"></a>
 
 ### Install Hyprshot
 
@@ -478,7 +478,7 @@ mkdir -p ~/Screenshots
 
 ***
 
-## 9. ⌨️ Custom Keybindings
+## 9. ⌨️ Custom Keybindings <a id="custom-keybindings"></a>
 
 ### Where to modify keybinds
 
@@ -562,7 +562,7 @@ hyprctl binds | grep -E "(Print|pavucontrol|easyeffects)"
 
 ***
 
-## 10. ⚡ Final Optimizations
+## 10. ⚡ Final Optimizations <a id="final-optimizations"></a>
 
 ### Configure Firefox for media integration
 
@@ -637,7 +637,7 @@ If you have dual GPU issues, consult [Arch Wiki - NVIDIA](https://wiki.archlinux
 
 ***
 
-## 11. 🎨 App Center (GNOME Software)
+## 11. 🎨 App Center (GNOME Software) <a id="app-center-gnome-software"></a>
 
 ### Configure App Center
 
@@ -663,7 +663,7 @@ Restart the system to apply changes.
 
 ***
 
-## 12. ✅ Final Checklist
+## 12. ✅ Final Checklist <a id="final-checklist"></a>
 
 Verify everything works:
 
@@ -686,7 +686,7 @@ Verify everything works:
 
 ***
 
-## 🔧 Common Troubleshooting
+## 🔧 Common Troubleshooting <a id="common-troubleshooting-1"></a>
 
 ### Missing icons in interface
 
@@ -854,7 +854,7 @@ hyprctl reload
 
 ***
 
-## 📚 Useful Resources
+## 📚 Useful Resources <a id="useful-resources-1"></a>
 
 - [illogical_impulse Official Wiki](https://end-4.github.io/dots-hyprland-wiki/)
 - [illogical_impulse GitHub Repository](https://github.com/end-4/dots-hyprland)
@@ -869,7 +869,7 @@ hyprctl reload
 
 ***
 
-## 🎯 Quick Reference Commands
+## 🎯 Quick Reference Commands <a id="quick-reference-commands-1"></a>
 
 ```bash
 # System maintenance
