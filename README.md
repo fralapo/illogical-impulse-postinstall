@@ -757,12 +757,12 @@ Your **illogical_impulse** system is now fully configured and optimized for:
 * ✅ Bluetooth with LDAC codec support
 * ✅ Consistent Material You theming
 * ✅ Firefox media controls in taskbar
-* ✅ **Screenshot functionality with Print key**
+* ✅ Screenshot functionality with Print key
 * ✅ App Center for graphical installations
 * ✅ Battery optimizations (laptops)
 * ✅ Performance optimizations (desktops)
 * ✅ Audio presets for various headphone brands
-* ✅ **Modular configuration system for easy customization**
+* ✅ Modular configuration system for easy customization
 
 **Enjoy your Material Design 3 Hyprland experience! 🚀**
 
